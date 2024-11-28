@@ -1,0 +1,35 @@
+{
+	"name": "libel-academy-especialista-3d",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emailjs/browser": "^3.11.0",
+		"@reduxjs/toolkit": "^1.9.3",
+		"dayjs": "^1.11.7",
+		"infinite-react-carousel": "^1.2.11",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-elastic-carousel": "^0.11.5",
+		"react-icons": "^4.8.0",
+		"react-image-webp": "^0.8.0",
+		"react-player": "^2.12.0",
+		"react-redux": "^8.0.5",
+		"react-slick": "^0.29.0",
+		"slick-carousel": "^1.8.1",
+		"styled-components": "^5.3.9",
+		"sweetalert2": "^11.6.13",
+		"swiper": "^9.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react": "^3.1.0",
+		"vite": "^4.2.0"
+	}
+}

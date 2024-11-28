@@ -1,0 +1,146 @@
+.mainSection {
+	background-color: #0c0f14;
+}
+
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 60px;
+	max-width: 1440px;
+	padding: 60px 24px;
+	margin: 0 auto;
+}
+
+.imgMain {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 60px;
+	row-gap: 24px;
+	padding: 36px 24px 0;
+}
+
+.imgContainer {
+	position: relative;
+	max-width: 362px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 36px;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+.playIcon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+	background: none;
+	border: 1px solid #8abe29;
+	color: white;
+	background-color: rgba(138, 190, 41, 0.3);
+	padding-left: 3px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.playIcon:hover {
+	background-color: #8abe29;
+	border-color: #8abe29;
+	color: white;
+}
+
+/* ---------------------------------------- */
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	gap: 24px;
+	padding: 36px 24px 0;
+}
+
+.infoContainer h4 {
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.infoContainer h1 {
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 70px;
+}
+
+.infoContainer h1 span {
+	position: relative;
+	color: #00fff0;
+}
+
+.infoContainer h1 span img {
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+}
+
+.infoContainer p {
+	font-size: 16px;
+	font-weight: 300;
+	max-width: 600px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.infoContainer h1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.infoContainer h1 span img {
+		max-width: 200px;
+	}
+
+	.infoContainer p {
+		max-width: 400px;
+	}
+
+	.line {
+		width: 400px;
+	}
+}
+
+@media (max-width: 375px) {
+	.infoContainer h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.line {
+		width: 300px;
+	}
+}
+
+@media (max-width: 350px) {
+	.infoContainer h1 {
+		font-size: 35px;
+	}
+
+	.infoContainer h1 span img {
+		max-width: 150px;
+	}
+}

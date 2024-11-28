@@ -1,0 +1,153 @@
+.mainSection {
+	padding: 60px 0;
+	background-color: #1a1a1a;
+}
+
+.mainContainer {
+	max-width: 1440px;
+	padding: 0 24px;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: 500;
+	font-family: 'Be Vietnam Pro';
+	margin-bottom: 24px;
+	line-height: 50px;
+}
+
+.mainContainer p {
+	text-align: center;
+	color: #d4d4d4;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 60px;
+	margin-top: 36px;
+}
+
+.cardsContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.card {
+	background-color: #292929;
+	max-width: 405px;
+	min-width: 405px;
+	border-radius: 20px;
+}
+
+.card h1 {
+	font-size: 25px;
+	font-weight: 400;
+	max-width: 200px;
+	text-align: start;
+	font-family: 'Be Vietnam Pro';
+	line-height: 30px;
+}
+
+.cardActive p {
+	font-size: 18px;
+	color: #d4d4d4;
+	padding: 0 36px 24px;
+	text-align: start;
+}
+
+.cardDisable p {
+	display: none;
+}
+
+.titleCard {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	padding: 24px 36px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+	.container1 {
+		gap: 24px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.imageContainer img {
+		max-height: 400px;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.imageContainer img {
+		max-height: 360px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container1 {
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
+		flex-direction: column-reverse;
+	}
+
+	.imageContainer {
+		padding: 0 24px;
+	}
+
+	.imageContainer img {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+	}
+
+	.card {
+		background-color: #292929;
+		max-width: 450px;
+		min-width: 405px;
+		border-radius: 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.title {
+		font-size: 40px;
+	}
+	.card {
+		max-width: 100%;
+		min-width: auto;
+	}
+
+	.card h1 {
+		font-size: 22px;
+	}
+
+	.cardActive p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.title {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.title {
+		font-size: 30px;
+	}
+}

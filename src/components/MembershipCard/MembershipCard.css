@@ -1,0 +1,189 @@
+.Membership {
+    width: 310px;
+    height: 500px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+    background-color: white;
+}
+
+.membership-header {
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+}
+
+.membership-header img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.membership-body {
+    padding: 20px 15px;
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.membership-info {
+    grid-area: membership-info;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "membership-icon membership-name";
+}
+
+.membership-icon {
+    grid-area: membership-icon;
+width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.membership-name {
+    grid-area: membership-name;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+        padding-left: 10px;
+}
+
+.membership-name h4 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.membership-name h5 {
+    color: #6000de;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.membership-name h5 > sup  {
+    text-decoration: line-through;
+    color: var(--base-3);
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+.membership-card-option {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.membership-card-option select {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 14px;
+    outline: none;
+}
+
+.membership-card-option option {
+    font-size: 12px;
+}
+
+.membership-card-option p {
+    font-size: 14px;
+}
+
+.membership-card-items {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--base-3);
+    font-size: 16px;
+    text-align: left;
+    align-self: center;
+}
+
+.membership-card-items li {
+    width: 100%;
+    list-style: square inside;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+}
+
+.membership-button {
+    grid-area: membership-button;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+}
+
+.membership-button .paypal {
+    text-decoration: none;
+    color: var(--base-1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-button .paypal:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.membership-button .card {
+    text-decoration: none;
+    color: white;
+    border: 1px solid var(--primary-blue);
+    background-color: var(--primary-blue);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-button .card:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    
+}
+
+.question-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+}
+
+.question-icon:hover {
+    color: var(--primary-blue);
+}
+

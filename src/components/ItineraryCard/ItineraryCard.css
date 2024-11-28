@@ -1,0 +1,43 @@
+.ItineraryCard {
+	/* width: 240px; */
+	/* height: 200px; */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.ItineraryCard img {
+	justify-self: center;
+	align-self: center;
+	max-width: 250px;
+}
+
+.ItineraryCard h2 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.35;
+	color: white;
+}
+
+.ItineraryCard h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(204, 204, 204);
+}
+
+.ItineraryCard p {
+	color: #c2d7ff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+@media (max-width: 460px) {
+	.ItineraryCard img {
+		max-width: 200px;
+	}
+
+	.ItineraryCard h2 {
+		font-size: 16px;
+	}
+}

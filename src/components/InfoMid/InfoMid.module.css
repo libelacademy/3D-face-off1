@@ -1,0 +1,440 @@
+.mainSection {
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	margin: 0 auto 24px;
+}
+
+.flecha1 {
+	position: relative;
+	max-width: 500px;
+	left: 15%;
+}
+
+.flecha2 {
+	position: relative;
+	max-width: 500px;
+	left: 30%;
+}
+
+.flecha3 {
+	position: relative;
+	max-width: 250px;
+	left: 50%;
+	margin-bottom: 12px;
+}
+/* Contenedor 1 */
+.container1 {
+	display: flex;
+	margin: 36px 0px 24px;
+}
+
+.container1_Info1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding: 0 24px;
+}
+
+.container1_Info1 img {
+	max-width: 500px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container1_Info2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	padding: 0 24px;
+}
+
+.container1_Info2 h1 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #222c41;
+	margin-bottom: 12px;
+}
+
+.container1_Info2 p {
+	font-size: 18px;
+	color: #7f879e;
+	margin-bottom: 24px;
+	width: fit-content;
+}
+
+.container1_Info2 a {
+	width: fit-content;
+	color: #6000de;
+	text-decoration: none;
+	border-bottom: 5px solid #6000de;
+	padding: 0 3px 6px 3px;
+}
+
+.container1_Info2 a:hover {
+	color: #390083;
+	border-color: #390083;
+}
+
+/* Contenedor 2 */
+
+.container2 {
+	display: flex;
+	margin: 36px 0px;
+}
+
+.container2_Info1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding: 0 24px;
+}
+
+.container2_Info1 img {
+	max-width: 500px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container2_Info2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	padding: 0 24px;
+}
+
+.container2_Info2 h1 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #222c41;
+	margin-bottom: 12px;
+}
+
+.container2_Info2 p {
+	font-size: 18px;
+	color: #7f879e;
+	margin-bottom: 24px;
+	width: fit-content;
+}
+
+.container2_Info2 a {
+	width: fit-content;
+	color: #6000de;
+	text-decoration: none;
+	border-bottom: 5px solid #6000de;
+	padding: 0 3px 6px 3px;
+}
+
+.container2_Info2 a:hover {
+	color: #390083;
+	border-color: #390083;
+}
+
+/* Contenedor 3 */
+
+.container3 {
+	display: flex;
+	margin: 36px 0px;
+}
+
+.container3_Info1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding: 0 24px;
+}
+
+.container3_Info1 img {
+	max-width: 500px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container3_Info2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	padding: 0 24px;
+}
+
+.container3_Info2 h1 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #222c41;
+	margin-bottom: 12px;
+}
+
+.container3_Info2 p {
+	font-size: 18px;
+	color: #7f879e;
+	margin-bottom: 24px;
+	width: fit-content;
+}
+
+.container3_Info2 a {
+	width: fit-content;
+	color: #6000de;
+	text-decoration: none;
+	border-bottom: 5px solid #6000de;
+	padding: 0 3px 6px 3px;
+}
+
+.container3_Info2 a:hover {
+	color: #390083;
+	border-color: #390083;
+}
+
+.registrate {
+	color: white;
+	text-decoration: none;
+	padding: 16px 24px;
+	border-radius: 10px;
+	background-color: #6000de;
+	width: fit-content;
+	align-self: center;
+}
+
+.registrate:hover {
+	background-color: #4c06a8;
+}
+
+/* ************************************* Burubjas ************************************* */
+.bubble1 {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	gap: 12px;
+	border-radius: 10px;
+	position: absolute;
+	top: -30px;
+	left: 2%;
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: 0 0 10px 0 rgb(98, 98, 98); */
+}
+
+.bubble1 div {
+	display: flex;
+	width: fit-content;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #6000de;
+	color: white;
+	font-size: 24px;
+}
+
+.bubble2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 300px;
+	padding: 18px 12px;
+	gap: 12px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: -30px;
+	left: -30px;
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: 0 0 10px 0 rgb(98, 98, 98); */
+}
+
+.bubble2 div {
+	display: flex;
+	width: fit-content;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #6000de;
+	color: white;
+	font-size: 24px;
+}
+
+.bubble2 p {
+	max-width: 260px;
+	text-align: center;
+	color: rgb(31, 31, 31);
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1545px) {
+	.bubble2 {
+		left: 2%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.bubble2 {
+		left: -50px;
+		bottom: -50px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.bubble1 div {
+		padding: 6px;
+		font-size: 18px;
+	}
+
+	.bubble2 {
+		gap: 6px;
+		left: -15px;
+	}
+
+	.bubble2 div {
+		padding: 6px;
+		font-size: 16px;
+	}
+
+	.bubble2 p {
+		max-width: 220px;
+	}
+}
+/* ************************************* Burubjas ************************************* */
+
+@media screen and (max-width: 900px) {
+	.flecha1 {
+		max-width: 400px;
+		left: 35%;
+	}
+
+	.flecha2 {
+		max-width: 400px;
+		left: 10%;
+	}
+
+	.flecha3 {
+		max-width: 200px;
+		left: 50%;
+		margin-bottom: 12px;
+	}
+
+	.container1 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container1_Info1 {
+		width: fit-content;
+		margin-bottom: 60px;
+	}
+
+	.container1_Info2 {
+		width: 100%;
+	}
+
+	.container2 {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.container2_Info1 {
+		width: fit-content;
+		margin-bottom: 60px;
+	}
+
+	.container2_Info2 {
+		width: 100%;
+	}
+
+	.container3 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container3_Info1 {
+		width: fit-content;
+		margin-top: 60px;
+	}
+
+	.container3_Info2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.flecha1 {
+		max-width: 250px;
+		left: 30%;
+	}
+
+	.flecha2 {
+		max-width: 250px;
+		left: 20%;
+	}
+
+	.flecha3 {
+		max-width: 200px;
+		left: 50%;
+		margin-bottom: 12px;
+	}
+
+	.container1 {
+		padding: 0 24px;
+	}
+
+	.container1_Info1 {
+		width: 90%;
+	}
+
+	.container1_Info2 h1 {
+		font-size: 40px;
+	}
+
+	.container1_Info2 p {
+		font-size: 16px;
+	}
+
+	.container2 {
+		padding: 0 24px;
+	}
+
+	.container2_Info1 {
+		width: 90%;
+	}
+
+	.container2_Info2 h1 {
+		font-size: 40px;
+	}
+
+	.container2_Info2 p {
+		font-size: 16px;
+	}
+
+	.container3 {
+		padding: 0 24px;
+	}
+
+	.container3_Info1 {
+		width: 90%;
+	}
+
+	.container3_Info2 h1 {
+		font-size: 40px;
+	}
+
+	.container3_Info2 p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.flecha3 {
+		max-width: 150px;
+		left: 40%;
+		margin-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 356px) {
+	.flecha1 {
+		max-width: 200px;
+		left: 30%;
+	}
+}

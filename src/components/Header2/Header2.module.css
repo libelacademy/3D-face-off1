@@ -310,7 +310,7 @@
 	}
 }
 
-@media screen and (max-width: 1253px) {
+@media screen and (max-width: 1284px) {
 	.mainSection {
 		padding-bottom: 24px;
 	}
@@ -320,8 +320,14 @@
 	}
 
 	.conect1 {
-		bottom: 120px;
+		bottom: 145px;
 		left: 25%;
+	}
+}
+
+@media screen and (max-width: 1219px) {
+	.conect1 {
+		bottom: 122px;
 	}
 }
 

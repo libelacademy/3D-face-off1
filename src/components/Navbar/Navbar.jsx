@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { useDispatch, useSelector } from 'react-redux';
 
-import BannerTop from '../BannerTop/BannerTop';
 import SlideShow from '../SlideShow/SlideShow';
 import Image from 'react-image-webp';
 

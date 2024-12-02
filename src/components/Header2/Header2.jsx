@@ -17,8 +17,6 @@ import bola1 from '../../assets/bola1.webp';
 import bola2 from '../../assets/bola2.webp';
 import bola3 from '../../assets/bola3.webp';
 import barras from '../../assets/barras.webp';
-import blender from '../../assets/blender.png';
-import zbrush from '../../assets/zbrush.png';
 
 import { getRemainingTimeUntilMsTimestamp } from '../../utils/countdown';
 

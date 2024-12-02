@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import style from './Gallery.module.css';
-import img1 from '../../assets/info-mid2.jpg';
 
 import VideoModal from '../modales/VideoModal/VideoModal';
 

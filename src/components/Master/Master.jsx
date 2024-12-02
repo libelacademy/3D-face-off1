@@ -35,7 +35,7 @@ const Master = () => {
 		}
 	};
 
-	const countdownTimestampMs = 'Mon, 2 Dec 2024 16:00:00 GMT-5';
+	const countdownTimestampMs = 'Mon, 2 Dec 2024 23:00:00 GMT-5';
 
 	const defaultRemainingTime = {
 		seconds: '00',

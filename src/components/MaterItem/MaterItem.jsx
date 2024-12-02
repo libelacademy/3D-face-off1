@@ -89,7 +89,7 @@ const MasterItem = ({ content, handlerClose }) => {
 							/>
 						</h2>
 						<h3>
-							70% DTO <span> {content.priceBase} </span>{' '}
+							50% DTO <span> {content.priceBase} </span>{' '}
 						</h3>
 					</div>
 					<a href={content.temario} target='_blank' className='button-temario'>

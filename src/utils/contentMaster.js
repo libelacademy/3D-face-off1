@@ -15,7 +15,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=KejwiSOTbHg&ab_channel=LIBELACADEMY',
 		priceBase: '$79.89 USD',
-		priceOff: '$23.99 USD',
+		priceOff: '$39.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -36,7 +36,7 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1LYIEbz-iGNxuY6yp5Gyjfmty8MboYdwM/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=BLACKLIBELCAT',
+			'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT',
 		level: 'Aventureros',
 		options: [
 			{
@@ -79,7 +79,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=Zvrgt3T4k90&ab_channel=LIBELACADEMY',
 		priceBase: '$99.89 USD',
-		priceOff: '$29.99 USD',
+		priceOff: '$49.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -100,7 +100,7 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1SnYn8OEFi7DMtI_wrZkMbEeIM9hG4GDy/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=BLACKLIBELSCAL',
+			'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL',
 		level: 'Exploradores',
 		options: [
 			{
@@ -143,7 +143,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=y4H2fP_p8jQ&ab_channel=LIBELACADEMY',
 		priceBase: '$119.89 USD',
-		priceOff: '$35.99 USD',
+		priceOff: '$59.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -164,7 +164,7 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1q1WV4gQdN8QeptZOKnXPEBaf5s4DAHr4/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=BLACKLIBELSHIROI',
+			'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI',
 		level: 'Conquistadores',
 		options: [
 			{

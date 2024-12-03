@@ -25,10 +25,24 @@ function SimpleModal({ close, handlerClose, handleCloseModal, url, buttonName })
 							{' '}
 							<u>llenar el formulario de inscripción.</u>{' '}
 						</b>
-						Este paso es indispensable para acceder al 3D Face Off.
+						Este paso es indispensable para acceder al 3D Face Off. <br />
 					</p>
+
+					<span> ¿Algún asesor te ayudó a realizar esta compra? </span>
 				</div>
 				<div className='btn-container'>
+					<a
+						href={url?.Ninguno}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Ninguno
+					</a>
 					<a
 						href={url?.Viviana}
 						target='_blank'
@@ -65,41 +79,14 @@ function SimpleModal({ close, handlerClose, handleCloseModal, url, buttonName })
 					>
 						Andrés
 					</a>
-					<a
-						href={url?.Yiced}
-						target='_blank'
-						className='btn-camb'
-						onClick={() =>
-							setTimeout(() => {
-								handlerClose();
-							}, 2000)
-						}
-					>
-						Yiced
-					</a>
-					<a
-						href={url?.Ninguno}
-						target='_blank'
-						className='btn-camb'
-						onClick={() =>
-							setTimeout(() => {
-								handlerClose();
-							}, 2000)
-						}
-					>
-						Ninguno
-					</a>
 				</div>
-				
+
 				<div className='container-info'>
-					<p>
-						Si tu asesor no aparece en las opciones o no tuviste asesor, selecciona 
-						<b>
-							"Ninguno".
-						</b>
+					<p style={{ marginBottom: '24px' }}>
+						Si tu asesor no aparece en las opciones o no tuviste asesor, selecciona
+						<b>"Ninguno".</b>
 					</p>
 				</div>
-				
 			</div>
 		</div>
 	);

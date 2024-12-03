@@ -24,7 +24,7 @@ const Master = () => {
 	const handlerClose = (url, name) => {
 		close ? setClose(false) : setClose(true);
 		setUrl(url);
-		setName(name);
+		// setName(name);
 	};
 
 	const handleCloseModal = (event) => {

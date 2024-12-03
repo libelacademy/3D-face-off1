@@ -36,7 +36,14 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1LYIEbz-iGNxuY6yp5Gyjfmty8MboYdwM/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT',
+		{
+			Viviana: 'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733169989399&sck=AsesoraViviana',
+			Julian:'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733170046311&sck=AsesorJulian',
+			Andres:'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733170120382&sck=AsesorAndres',
+			Yiced:'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733170070949&sck=AsesoraYiced', 
+			Ninguno:'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT',
+		}
+			,
 		level: 'Aventureros',
 		options: [
 			{
@@ -100,7 +107,13 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1SnYn8OEFi7DMtI_wrZkMbEeIM9hG4GDy/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL',
+		{
+			Viviana: 'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171115370&sck=AsesoraViviana',
+			Julian:'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171187605&sck=AsesorJulian',
+			Andres:'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171274556&sck=AsesorAndres',
+			Yiced:'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171220029&sck=AsesoraYiced', 
+			Ninguno:'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL',
+		},
 		level: 'Exploradores',
 		options: [
 			{
@@ -164,7 +177,13 @@ const contentMaster = [
 		],
 		temario: 'https://drive.google.com/file/d/1q1WV4gQdN8QeptZOKnXPEBaf5s4DAHr4/view?usp=sharing',
 		registrate:
-			'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI',
+		{
+			Viviana: 'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171335024&sck=AsesoraViviana',
+			Julian:'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171361182&sck=AsesorJulian',
+			Andres:'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171502224&sck=AsesorAndres',
+			Yiced:'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171458545&sck=AsesoraYiced', 
+			Ninguno:'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI',
+		},
 		level: 'Conquistadores',
 		options: [
 			{

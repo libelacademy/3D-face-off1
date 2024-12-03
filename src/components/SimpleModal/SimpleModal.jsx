@@ -28,18 +28,78 @@ function SimpleModal({ close, handlerClose, handleCloseModal, url, buttonName })
 						Este paso es indispensable para acceder al 3D Face Off.
 					</p>
 				</div>
-				<a
-					href={url}
-					target='_blank'
-					className='btn-camb'
-					onClick={() =>
-						setTimeout(() => {
-							handlerClose();
-						}, 2000)
-					}
-				>
-					{buttonName}
-				</a>
+				<div className='btn-container'>
+					<a
+						href={url?.Viviana}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Viviana
+					</a>
+					<a
+						href={url?.Julian}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Julián
+					</a>
+					<a
+						href={url?.Andres}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Andrés
+					</a>
+					<a
+						href={url?.Yiced}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Yiced
+					</a>
+					<a
+						href={url?.Ninguno}
+						target='_blank'
+						className='btn-camb'
+						onClick={() =>
+							setTimeout(() => {
+								handlerClose();
+							}, 2000)
+						}
+					>
+						Ninguno
+					</a>
+				</div>
+				
+				<div className='container-info'>
+					<p>
+						Si tu asesor no aparece en las opciones o no tuviste asesor, selecciona 
+						<b>
+							"Ninguno".
+						</b>
+					</p>
+				</div>
+				
 			</div>
 		</div>
 	);

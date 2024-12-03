@@ -49,27 +49,34 @@
 	box-shadow: -1px 1px 3px rgb(46, 46, 46);
 }
 
+.btn-container{
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	margin-bottom: 24px;
+	flex-wrap: wrap;
+}
+
 .btn-camb {
 	/* position: absolute; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	/* left: 0;
 	right: 0; */
 
 	border: 3px solid var(--primary-blue);
 	color: var(--primary-blue);
 	background-color: #6000de25;
-
-	width: 200px;
+	width: 80px;
 	height: 50px;
 	border-radius: 5px;
 	cursor: pointer;
 	text-decoration: none;
-	margin-bottom: 24px;
+	/* margin-bottom: 24px; */
 	transition: all 0.2s ease-in;
 }
 
@@ -80,7 +87,7 @@
 
 @media screen and (max-width: 720px) {
 	.btn-camb {
-		width: 100px;
+		width: 70px;
 		height: 40px;
 		font-size: 14px;
 	}

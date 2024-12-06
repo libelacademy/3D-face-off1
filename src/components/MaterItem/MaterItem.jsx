@@ -58,7 +58,7 @@ const MasterItem = ({ content, handlerClose }) => {
 								modal: true,
 								url: '',
 								type: 'common',
-								img: content.image,
+								img: content.imgModal,
 							})
 						);
 					}

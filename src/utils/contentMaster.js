@@ -1,8 +1,11 @@
 /** @format */
 
-import nuevo1 from '../assets/content-master/nuevo1.jpg';
-import nuevo2 from '../assets/content-master/nuevo2.jpg';
-import nuevo3 from '../assets/content-master/nuevo3.jpg';
+import nuevo1 from '../assets/content-master/nuevo1.jpeg';
+import nuevo1Modal from '../assets/content-master/nuevo1Modal.jpeg';
+import nuevo2 from '../assets/content-master/nuevo2.jpeg';
+import nuevo2Modal from '../assets/content-master/nuevo2Modal.jpeg';
+import nuevo3 from '../assets/content-master/nuevo3.jpeg';
+import nuevo3Modal from '../assets/content-master/nuevo3Modal.jpeg';
 
 const contentMaster = [
 	{
@@ -10,6 +13,7 @@ const contentMaster = [
 		title: 'Sunny Cat / Blender',
 		image: nuevo1,
 		imageWebp: nuevo1,
+		imgModal: nuevo1Modal,
 		description: 'Crea este fantástico Rig desde cero en Maya y llevémoslo juntos a Unreal.',
 		pack: false,
 		tech: [],
@@ -81,6 +85,7 @@ const contentMaster = [
 		title: 'Scal / Blender',
 		image: nuevo2,
 		imageWebp: nuevo2,
+		imgModal: nuevo2Modal,
 		description:
 			'Vive una experiencia con la última versión de Blender y libera el gran talento que hay en ti.',
 		pack: false,
@@ -153,6 +158,7 @@ const contentMaster = [
 		title: 'Shiroi / ZBrush',
 		image: nuevo3,
 		imageWebp: nuevo3,
+		imgModal: nuevo3Modal,
 		description:
 			'Aprende a crear personajes en Maya desde cero renderízalo en Arnold, aplica texturas en substance y más.',
 		pack: false,

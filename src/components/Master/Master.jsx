@@ -7,7 +7,7 @@ import MasterItem from '../MaterItem/MaterItem';
 
 import decoration1 from '../../assets/decorations/02.png';
 import decoration2 from '../../assets/decorations/04.png';
-import off from '../../assets/50.png';
+import off from '../../assets/35.png';
 
 import { getRemainingTimeUntilMsTimestamp } from '../../utils/countdown';
 import contentMaster from '../../utils/contentMaster';
@@ -33,7 +33,7 @@ const Master = () => {
 		}
 	};
 
-	const countdownTimestampMs = 'Mon, 16 Dec 2024 23:59:00 GMT-5';
+	const countdownTimestampMs = 'Thu, 2 Jan 2025 23:59:59 GMT-5';
 
 	const defaultRemainingTime = {
 		seconds: '00',
@@ -110,7 +110,7 @@ const Master = () => {
 
 				<div className='cnt-countdown'>
 					<div className='membership-countdown'>
-						<h5 className='membership-countdown-title'>Válido hasta el 16 de Dic</h5>
+						<h5 className='membership-countdown-title'>Válido hasta el 2 de Ene</h5>
 						<div className='membership-countdown-counter'>
 							<div className='membership-countdown-counter-item'>
 								<span>Día(s)</span>

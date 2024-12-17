@@ -19,7 +19,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=KejwiSOTbHg&ab_channel=LIBELACADEMY',
 		priceBase: '$79.89 USD',
-		priceOff: '$39.99 USD',
+		priceOff: '$51.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -41,13 +41,13 @@ const contentMaster = [
 		temario: 'https://drive.google.com/file/d/1LYIEbz-iGNxuY6yp5Gyjfmty8MboYdwM/view?usp=sharing',
 		registrate: {
 			Ninguno:
-				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT',
+				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=35LIBELCAT',
 			Viviana:
-				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733169989399&sck=AsesoraViviana',
+				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=35LIBELCAT&bid=1734037068199&sck=AsesoraViviana',
 			Julian:
-				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733170046311&sck=AsesorJulian',
+				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=35LIBELCAT&bid=1734037341506&sck=AsesorJulian',
 			Andres:
-				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=50LIBELCAT&bid=1733170120382&sck=AsesorAndres',
+				'https://pay.hotmart.com/S96442764D?checkoutMode=6&off=go1mzi5f&offDiscount=35LIBELCAT&bid=1734037341506&sck=AsesorAndres',
 		},
 		level: 'Aventureros',
 		options: [
@@ -92,7 +92,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=Zvrgt3T4k90&ab_channel=LIBELACADEMY',
 		priceBase: '$99.89 USD',
-		priceOff: '$49.99 USD',
+		priceOff: '$64.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -114,13 +114,13 @@ const contentMaster = [
 		temario: 'https://drive.google.com/file/d/1SnYn8OEFi7DMtI_wrZkMbEeIM9hG4GDy/view?usp=sharing',
 		registrate: {
 			Ninguno:
-				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL',
+				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=35LIBELSCAL',
 			Viviana:
-				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171115370&sck=AsesoraViviana',
+				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=35LIBELSCAL&bid=1734038151176&sck=AsesoraViviana',
 			Julian:
-				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171187605&sck=AsesorJulian',
+				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=35LIBELSCAL&bid=1734038151176&sck=AsesorJulian',
 			Andres:
-				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=50LIBELSCAL&bid=1733171274556&sck=AsesorAndres',
+				'https://pay.hotmart.com/Y96777127Y?checkoutMode=6&off=gf7xca9g&offDiscount=35LIBELSCAL&bid=1734038151176&sck=AsesorAndres',
 		},
 		level: 'Exploradores',
 		options: [
@@ -165,7 +165,7 @@ const contentMaster = [
 		tech: [],
 		video: 'https://www.youtube.com/watch?v=y4H2fP_p8jQ&ab_channel=LIBELACADEMY',
 		priceBase: '$119.89 USD',
-		priceOff: '$59.99 USD',
+		priceOff: '$77.99 USD',
 		items: [
 			{
 				item: 'Feedback en vivo',
@@ -187,13 +187,13 @@ const contentMaster = [
 		temario: 'https://drive.google.com/file/d/1q1WV4gQdN8QeptZOKnXPEBaf5s4DAHr4/view?usp=sharing',
 		registrate: {
 			Ninguno:
-				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI',
+				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=35LIBELSHIROI',
 			Viviana:
-				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171335024&sck=AsesoraViviana',
+				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=35LIBELSHIROI&bid=1734038665897&sck=AsesoraViviana',
 			Julian:
-				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171361182&sck=AsesorJulian',
+				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=35LIBELSHIROI&bid=1734038665897&sck=AsesorJulian',
 			Andres:
-				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=50LIBELSHIROI&bid=1733171502224&sck=AsesorAndres',
+				'https://pay.hotmart.com/W96774950T?checkoutMode=6&off=dy4n6cxb&offDiscount=35LIBELSHIROI&bid=1734038665897&sck=AsesorAndres',
 		},
 		level: 'Conquistadores',
 		options: [

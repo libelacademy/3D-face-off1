@@ -224,8 +224,8 @@ const Navbar = () => {
 					{/* <a href='https://libel.academy/3d-camp' style={{ marginRight: 20 }}>
 						3D Camp
 					</a> */}
-					<a href='https://cursos.libel.academy' style={{ marginRight: 20 }}>
-						Cursos
+					<a href='https://libel.academy/3d-camp' style={{ marginRight: 20 }}>
+						3D Face Off
 					</a>
 					<a href='https://libel.academy/membresia' style={{ marginRight: 20 }}>
 						Membresía
@@ -372,7 +372,7 @@ const Navbar = () => {
 							Escuelas <IoChevronForward />
 						</span>
 						<a href='https://libel.academy/3d-camp' className='menu-shortcuts-item'>
-							3D Camp
+							3D Face Off
 						</a>
 						<a
 							href='https://libel.academy/personajes-para-videojuegos'

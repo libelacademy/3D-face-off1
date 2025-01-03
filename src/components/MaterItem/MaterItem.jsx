@@ -88,9 +88,9 @@ const MasterItem = ({ content, handlerClose }) => {
 								className='description-question'
 							/>
 						</h2>
-						<h3>
+						{/* <h3>
 							35% DTO <span> {content.priceBase} </span>{' '}
-						</h3>
+						</h3> */}
 					</div>
 					<a href={content.temario} target='_blank' className='button-temario'>
 						Descargar temario <BiDownload style={{ fontSize: '20px' }} />

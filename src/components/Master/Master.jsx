@@ -33,7 +33,7 @@ const Master = () => {
 		}
 	};
 
-	const countdownTimestampMs = 'Thu, 2 Jan 2025 23:59:59 GMT-5';
+	const countdownTimestampMs = 'Mon, 20 Jan 2025 23:59:59 GMT-5';
 
 	const defaultRemainingTime = {
 		seconds: '00',
@@ -106,11 +106,11 @@ const Master = () => {
 					</a>
 				</div>
 
-				<img className='off-img' src={off} alt='70off' />
+				{/* <img className='off-img' src={off} alt='70off' /> */}
 
 				<div className='cnt-countdown'>
 					<div className='membership-countdown'>
-						<h5 className='membership-countdown-title'>Válido hasta el 2 de Ene</h5>
+						<h5 className='membership-countdown-title'>Válido hasta el 20 de Enero</h5>
 						<div className='membership-countdown-counter'>
 							<div className='membership-countdown-counter-item'>
 								<span>Día(s)</span>
